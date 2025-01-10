@@ -27,6 +27,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.grey.shade300,
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
@@ -46,7 +47,7 @@ class _HomePageState extends State<HomePage> {
         }),
       ),
       drawer: Drawer(
-        backgroundColor: Colors.grey,
+        backgroundColor: Colors.grey.shade900,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
@@ -57,9 +58,6 @@ class _HomePageState extends State<HomePage> {
                     'lib/images/nike.png',
                     color: Colors.white,
                   ),
-                ),
-                const Divider(
-                  color: Colors.grey,
                 ),
                 const Padding(
                   padding: EdgeInsets.all(8.0),
