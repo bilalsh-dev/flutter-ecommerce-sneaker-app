@@ -4,17 +4,17 @@ import 'package:flutter/material.dart';
 class Cart extends ChangeNotifier {
   List<Shoe> shoeShop = [
     Shoe(
-        name: "Air Jordan 1 (low)",
+        name: "Pegasus 41",
         price: '140',
         description:
-            "The Air Jordan 1 Low OG remakes the classic sneaker with new colors and textures.",
-        imagePath: "lib/images/air-jordan-1-low.png"),
+            "Responsive cushioning in the Pegasus provides an energized ride for everyday road running.",
+        imagePath: "lib/images/pegasus-41-mens.png"),
     Shoe(
-        name: "Air Jordan 1 (high)",
-        price: '180',
+        name: "Pegasus Trail 4",
+        price: '97.7',
         description:
-            "This iteration of the AJ1 reimagines Mike's first signature model with a fresh mix of colors.",
-        imagePath: "lib/images/air-jordan-i-high.png"),
+            "Running is your daily ritual, taking you from road to trail as you seek out new adventures and goals.",
+        imagePath: "lib/images/pegasus-trail-4-gore.png"),
     Shoe(
         name: "Nike Blazer Mid 77",
         price: '105',
@@ -33,17 +33,17 @@ class Cart extends ChangeNotifier {
             "TRecognizing the Dunk's roots as the top-ranking college team sneaker",
         imagePath: "lib/images/dunk-low-retro.png"),
     Shoe(
-        name: "Pegasus 41",
+        name: "Air Jordan 1 (low)",
         price: '140',
         description:
-            "Responsive cushioning in the Pegasus provides an energized ride for everyday road running.",
-        imagePath: "lib/images/pegasus-41-mens.png"),
+            "The Air Jordan 1 Low OG remakes the classic sneaker with new colors and textures.",
+        imagePath: "lib/images/air-jordan-1-low.png"),
     Shoe(
-        name: "Pegasus Trail 4",
-        price: '97.7',
+        name: "Air Jordan 1 (high)",
+        price: '180',
         description:
-            "Running is your daily ritual, taking you from road to trail as you seek out new adventures and goals.",
-        imagePath: "lib/images/pegasus-trail-4-gore.png"),
+            "This iteration of the AJ1 reimagines Mike's first signature model with a fresh mix of colors.",
+        imagePath: "lib/images/air-jordan-i-high.png"),
   ];
 
   List<Shoe> userCart = [];
