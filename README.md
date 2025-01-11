@@ -1,16 +1,16 @@
-# ecommerce_app
+## Flutter Sneaker Shop Application UI Design
 
-A new Flutter project.
+A part of #flutter100daysofcode. Let's create a beautiful and animated Shoes Shop Application UI with Flutter.
 
-## Getting Started
+## Development Setup
 
-This project is a starting point for a Flutter application.
+Clone the repository and run the following commands:
 
-A few resources to get you started if this is your first Flutter project:
+```
+flutter pub get
+flutter run
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## ScreenShot
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="lib/images/screenshot/one.png" height="500em" />&nbsp;<img src="lib/images/screenshot/two.png" height="500em" />&nbsp;<img src="lib/images/screenshot/three.png" height="500em" />&nbsp;<img src="lib/images/screenshot/four.png" height="500em" />&nbsp;<img src="lib/images/screenshot/five.png" height="500em" />
